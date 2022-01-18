@@ -1,0 +1,56 @@
+		/* Halo Formatu Global ida ba Buat hotu ne'ebe iha pagina nia laran */
+		*{
+			font-family: 'calibri';
+		}
+		/*********************************************************************/
+		/* Halo Formatu Buataun hotu ne'e iha pagina laran */
+		input[type="submit"]:hover{background: #f00; border:1px solid #f00; color: #fff}
+		input[type="reset"]:hover{background: #f00; border:1px solid #f00; color: #fff}
+		input[type="button"]:hover{background: #f00; border:1px solid #f00; color: #fff}
+		button:hover{background: #f00; border:1px solid #f00; color: #fff}
+
+		input[type="submit"],input[type="reset"],input[type="button"],button{
+			padding: 0; background: #c41b52;
+			padding-left: 15px; padding-right: 15px; cursor: pointer; height: 24px;
+			 border-radius: 2px; border:1px solid #c41b52; margin: 4px; color: #fff;}
+		/*********************************************************************/
+		/* Halo Formatu ba input no textarea hotu ne'e iha pagina laran */
+		input, textarea{
+			margin: 4px;
+			padding: 4px;
+			border: 1px solid #eb600f;
+		}
+		/*********************************************************************/
+		/* Halo Formatu ba input no textarea hotu ne'e iha pagina laran */
+		label{
+			width: 120px; display: inline-block; padding: 5px;
+			vertical-align: top;
+		}
+		/*********************************************************************/
+		/* Halo Formatu ba tabela hotu ne'e iha pagina laran */
+		table{
+			border-collapse: collapse;
+			margin-bottom: 20px;
+			width: 100%;
+		}
+
+		th {padding: 6px; background: #c41b52; border:1px solid #ddd; color: #fff; }
+		td {padding: 2px; border:1px solid #ddd;}
+
+		tr:hover td{
+			background: #fefefe;
+
+		}
+
+		tr:nth-child(even){
+			background: #eee;
+		}
+
+		/*********************************************************************/
+		/* Halo Formatu ba fieldset hotu ne'e iha pagina laran */
+		fieldset{
+			border:1px solid #c41b52;
+		}
+		/*********************************************************************/
+		/* Halo Formatu ba input no textarea hotu ne'e iha pagina laran */
+
